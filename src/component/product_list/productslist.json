@@ -1,0 +1,349 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1",
+        "type":"bedroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "queen panel bed",
+        "price": 160.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-1.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2",
+        "type":"bedroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "king panel bed",
+        "price": 112.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-2.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3",
+        "type":"bedroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "single panel bed",
+        "price": 182.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-3.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4",
+        "type":"bedroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "twin panel bed",
+        "price": 322.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-4.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5",
+        "type":"kitchen",
+        "amount":1
+       },
+      "fields": {
+        "title": "kitchen",
+        "price": 288.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-5.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6",
+        "type":"bedroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "Accent Chair",
+        "price": 32.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-6.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7",
+        "type":"living room" ,
+        "amount":1
+      },
+      "fields": {
+        "title": "utopia sofa",
+        "price": 145.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-7.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8",
+        "type":"kitchen",
+        "amount":1
+       },
+      "fields": {
+        "title": "table",
+        "price": 33.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/product-8.jpeg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9",
+        "type":"living room" ,
+        "amount":1
+      },
+      "fields": {
+        "title": "couch",
+        "price": 223.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/oturma-odası-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10",
+        "type":"living room" ,
+        "amount":1
+      },
+      "fields": {
+        "title": "sofa set",
+        "price": 283.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/oturma-odası-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11",
+        "type":"living room" ,
+        "amount":1
+      },
+      "fields": {
+        "title": "corner sofa",
+        "price": 115.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/oturma-odası-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "12",
+        "type":"kitchen",
+        "amount":1
+       },
+      "fields": {
+        "title": "enhet kitchen",
+        "price": 534.72,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/mutfak-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "13",
+        "type":"kitchen",
+        "amount":1
+       },
+      "fields": {
+        "title": "wall cabinet kitchen",
+        "price": 127.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/mutfak-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "14",
+        "type":"kitchen",
+        "amount":1
+       },
+      "fields": {
+        "title": "knoxhult kitchen",
+        "price": 725.76,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/mutfak-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "15",
+        "type":"kitchen",
+        "amount":1
+       },
+      "fields": {
+        "title": "enhet kitchen",
+        "price": 827.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/mutfak-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "16",
+        "type":"bathroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "bathroom cabinets",
+        "price": 127.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/banyo-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "17",
+        "type":"bathroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "bathroom shelving unit",
+        "price": 134.84,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/banyo-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "18",
+        "type":"bathroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "bathroom cabinets",
+        "price": 227.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/banyo-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "19",
+        "type":"bathroom",
+        "amount":1
+       },
+      "fields": {
+        "title": "bathroom shelving unit",
+        "price": 107.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/banyo-4.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+
+
+

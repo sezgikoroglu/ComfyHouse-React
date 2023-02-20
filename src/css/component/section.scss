@@ -1,0 +1,103 @@
+.home{
+    margin-top: 40px;
+    h2{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 5rem;
+        text-transform: capitalize;
+        letter-spacing: var(--mainSpacing);
+    }
+
+    .products{
+        width: 90vw;
+        margin: 0 auto;
+        max-width: 1170px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-column-gap: 1.5rem;
+        grid-row-gap: 2rem;
+        
+        .product{ 
+            
+            .img-container {
+                position: relative;
+                overflow: hidden;
+                height: 195px;
+                cursor: pointer;
+
+                .product-img {
+                    display: block;
+                    width: 100%;
+                    min-height: 12rem;
+                    transition: all 0.3s;
+                    cursor: pointer;
+                }
+                
+            }
+            p {
+                text-transform: capitalize;
+                font-size: 0.875rem;
+                margin-top: 1rem;
+                margin-bottom: 0.25rem;
+                letter-spacing: 0.1rem;
+                color:hsl(210, 22%, 49%);
+                text-align: center;
+            }
+            
+            h4 {
+                font-size: 1rem;
+                letter-spacing: 0.1rem;
+                color:hsl(209, 34%, 30%);
+                text-align: center;
+            }
+        }
+
+      
+    
+    }
+    .all-btn-home{
+        display: block;
+        width: 11rem;
+        margin: 40px auto;
+        padding: 10px;
+        text-align: center;
+        background: hsl(21, 57%, 50%);
+        color: white;
+        border-radius: 0.25rem;
+    &:hover{
+        color: #222;
+        opacity: 0.9;
+
+    }    
+       
+    }
+}
+
+.refhdiv{
+    border: 1px solid orange;
+}
+
+.about{
+    padding: 5rem 0;
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    h2{
+        font-size: 30px;
+        line-height: 1.5;
+        color: #102a42;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+
+    p{
+        line-height: 2;
+        max-width: 45em;
+        margin: 0 auto;
+        margin-top: 2rem;
+        color:hsl(210, 22%, 49%);
+    }
+}

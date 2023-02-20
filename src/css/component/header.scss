@@ -1,0 +1,183 @@
+header{
+    .navbar-home{
+        //position: sticky;
+        top: 0;
+        height: 6rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+
+        .navbar-center{
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+
+            .navbar-leftside{
+               
+                a{
+                color: #fff;
+                margin-right: 3rem;
+                letter-spacing: 0.1rem;
+                transition: all 0.3s;
+                font-size: 1.25rem;
+                &:hover{
+                    color:hsl(21, 57%, 50%)}
+            }
+            }
+
+            span{
+                cursor: pointer;
+            }
+            svg{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+            }
+
+            .basket{
+                width: 27px;
+                cursor: pointer;
+            }
+            
+        }
+    }
+
+    .hero{
+        min-height:100vh ;
+        margin-top: -6rem;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/main-bcg.jpeg") center/cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .hero-container {
+            width: 90vw;
+            max-width: 1170px;
+            color: white;
+
+            h1{
+                font-weight: 700;
+                line-height: 1;
+                font-size: 4rem;
+                text-transform: capitalize;
+                font-style:italic ;
+                letter-spacing: 0.1rem;
+            }
+            h3{
+                font-size: 1.5rem;
+                margin: 1rem 0;
+                letter-spacing: 0.1rem;
+            }
+
+            .hero-btn {
+                color: #fff;
+                background: transparent;
+                border: 1px solid #fff;
+                padding: 0.5rem 0.75rem;
+                display: inline-block;
+                margin-top: 0.75rem;
+                text-transform: uppercase;
+                letter-spacing: 0.1rem;
+                border-radius: 0.25rem;
+                transition: all 0.3s linear;
+                font-size: 1rem;
+            &:hover{
+                color:hsl(21, 57%, 50%);
+                background-color: #fff;
+            }
+            }
+        }
+    }
+
+    .navbar{
+        top: 0;
+        height: 6rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+
+        .navbar-center{
+            width: 100%;
+            max-width: 1170px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+
+            .navbar-leftside{
+               
+                a{
+                color: #102a42;;
+                margin-right: 3rem;
+                letter-spacing: 0.1rem;
+                transition: all 0.3s;
+                font-size: 1.25rem;
+                transition: all 0.3s;
+
+                &:hover{
+                    color:hsl(21, 57%, 50%)
+                }
+            }
+            }
+
+            span{
+                cursor: pointer;
+            }
+            svg{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+            }
+
+            .basket{
+                width: 27px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .page-hero{
+        min-height: 20vh;
+        padding-left: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background:  hsl(210, 36%, 96%);;
+        color: hsl(210, 22%, 49%);
+
+        h3{
+            font-weight: 700;
+            line-height: 1;
+            font-size: 1.75rem;
+            letter-spacing: 0.1rem;
+            text-transform: capitalize;
+        }
+    }
+    }
+
+    .basket-counter{
+        background: hsl(21, 62%, 45%);;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: #fff;
+        position: absolute;
+        z-index: 2;
+        right: (0%);
+        top:-12px;
+        font-weight: 600 ;
+    }
