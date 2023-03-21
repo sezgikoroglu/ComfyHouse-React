@@ -1,8 +1,11 @@
 .single-product{
-    padding: 32px 90px;
+    // padding: 32px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     .container{
-        margin-top: 32px;
-        
+       
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap:1rem;

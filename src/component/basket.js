@@ -44,11 +44,8 @@ const Basket = () => {
       {show && (
         <div className="card-overlay transparentBcg ">
           <div className="cart showCart">
-            <Link
-              className="close-cart"
-              onClick={() => setShow(false)}
-              to={`/Products`}
-            >
+         
+            <Link className="close-cart" onClick={() => setShow(false)}  to={`/Products`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="27"
@@ -115,11 +112,7 @@ const Basket = () => {
               <h3>
                 Your Total : <span className="cart-total">{total}</span> ${" "}
               </h3>
-              <Link
-                className="clear-cart banner-btn"
-                onClick={clearItems}
-                to={`/Products`}
-              >
+              <Link className="clear-cart banner-btn" onClick={clearItems} to={`/Products`}>
                 clear cart
               </Link>
             </div>

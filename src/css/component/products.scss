@@ -141,6 +141,14 @@
             color:hsl(209, 34%, 30%);
             text-align: center;
         }
+
+        .not-found{
+            color:black;
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            transform: translate(-40%,-40%);
+        }
     }
 }
 

@@ -9,12 +9,12 @@
     transition: all 0.3s linear;
     background: rgb(240, 157, 81, 0.5);
     z-index: 12;
-    // visibility:hidden;
-    // .transparentBcg {
-    //     visibility: visible;
-    // }
+    visibility:hidden
+    .transparentBcg {
+        visibility: visible;
+    }
 
-    visibility: visible;
+    //visibility: visible;
 
     .cart {
 

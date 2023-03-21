@@ -1,14 +1,15 @@
 import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
 import { useBasket } from "../context/basketcontext";
+import Basket from "./Basket";
 
 const Layout = () => {
-  
   const { setShowHero } = useBasket();
   const { showHero } = useBasket();
-  const [page, setPage] = useState("");
   const { items } = useBasket();
   const { setShow } = useBasket();
+
+  const [page, setPage] = useState("");
 
   const changePage = (e) => {
     setPage(e.target.innerText);
@@ -61,7 +62,7 @@ const Layout = () => {
                       width="125.067"
                       height="62.24"
                       filterUnits="userSpaceOnUse"
-                      colorInterpolationFilters="sRGB"
+                      colorinterpolationfilter="sRGB"
                     >
                       <feFlood floodOpacity="0" result="BackgroundImageFix" />
                       <feColorMatrix
@@ -91,13 +92,12 @@ const Layout = () => {
                 </svg>
                 <div className="basket-counter">{items.length}</div>
 
-                <Link to={`/basket`} onClick={() => setShow(true)}>
-                  <img
-                    className="basket"
-                    src="images/PngItem_1771991.png"
-                    alt=""
-                  />
-                </Link>
+                <img
+                  className="basket"
+                  src="images/PngItem_1771991.png"
+                  alt=""
+                  onClick={() => setShow(true)}
+                />
               </div>
             </nav>
             <div className="hero">
@@ -162,7 +162,7 @@ const Layout = () => {
                       width="125.067"
                       height="62.24"
                       filterUnits="userSpaceOnUse"
-                      colorInterpolationFilter="sRGB"
+                      colorinterpolationfilter="sRGB"
                     >
                       <feFlood floodOpacity="0" result="BackgroundImageFix" />
                       <feColorMatrix
@@ -191,14 +191,12 @@ const Layout = () => {
                   </defs>
                 </svg>
                 <div className="basket-counter">{items.length}</div>
-
-                <Link to={`/basket`} onClick={() => setShow(true)}>
-                  <img
-                    className="basket"
-                    src="images/PngItem_1771991.png"
-                    alt=""
-                  />
-                </Link>
+                <img
+                  className="basket"
+                  src="images/PngItem_1771991.png"
+                  alt=""
+                  onClick={() => setShow(true)}
+                />
               </div>
             </nav>
 
@@ -208,6 +206,7 @@ const Layout = () => {
           </>
         )}
       </header>
+      <Basket />
 
       <main>
         <Outlet />
@@ -217,8 +216,3 @@ const Layout = () => {
 };
 
 export default Layout;
-
-// <li>
-//       {/* <a href="/contact">Contact</a> */}
-//         <Link to="/users">Users</Link>
-// </li>

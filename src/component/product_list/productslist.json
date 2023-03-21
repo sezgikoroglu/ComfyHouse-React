@@ -8,7 +8,7 @@
        },
       "fields": {
         "title": "queen panel bed",
-        "price": 160.99,
+        "price": 260.99,
         "image": {
           "fields": {
             "file": {
@@ -26,7 +26,7 @@
        },
       "fields": {
         "title": "king panel bed",
-        "price": 112.99,
+        "price": 192.99,
         "image": {
           "fields": {
             "file": {
@@ -98,7 +98,7 @@
        },
       "fields": {
         "title": "Accent Chair",
-        "price": 32.99,
+        "price": 132.99,
         "image": {
           "fields": {
             "file": {
@@ -116,7 +116,7 @@
       },
       "fields": {
         "title": "utopia sofa",
-        "price": 145.99,
+        "price": 445.99,
         "image": {
           "fields": {
             "file": {
@@ -134,7 +134,7 @@
        },
       "fields": {
         "title": "table",
-        "price": 33.99,
+        "price": 133.99,
         "image": {
           "fields": {
             "file": {
@@ -152,7 +152,7 @@
       },
       "fields": {
         "title": "couch",
-        "price": 223.99,
+        "price": 323.99,
         "image": {
           "fields": {
             "file": {
@@ -170,7 +170,7 @@
       },
       "fields": {
         "title": "sofa set",
-        "price": 283.99,
+        "price": 433.99,
         "image": {
           "fields": {
             "file": {
@@ -188,7 +188,7 @@
       },
       "fields": {
         "title": "corner sofa",
-        "price": 115.99,
+        "price": 505.99,
         "image": {
           "fields": {
             "file": {
@@ -224,7 +224,7 @@
        },
       "fields": {
         "title": "wall cabinet kitchen",
-        "price": 127.99,
+        "price": 227.99,
         "image": {
           "fields": {
             "file": {
@@ -242,7 +242,7 @@
        },
       "fields": {
         "title": "knoxhult kitchen",
-        "price": 725.76,
+        "price": 545.76,
         "image": {
           "fields": {
             "file": {
@@ -260,7 +260,7 @@
        },
       "fields": {
         "title": "enhet kitchen",
-        "price": 827.99,
+        "price": 427.99,
         "image": {
           "fields": {
             "file": {
@@ -296,7 +296,7 @@
        },
       "fields": {
         "title": "bathroom shelving unit",
-        "price": 134.84,
+        "price": 334.84,
         "image": {
           "fields": {
             "file": {
@@ -332,7 +332,7 @@
        },
       "fields": {
         "title": "bathroom shelving unit",
-        "price": 107.99,
+        "price": 407.99,
         "image": {
           "fields": {
             "file": {
